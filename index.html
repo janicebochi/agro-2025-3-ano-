@@ -9,76 +9,78 @@
 <body>
     <header>
         <h1>Festejando a Cidade e o Campo</h1>
-        <button id="toggleView">Alternar entre a cidade e o campo</button>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#receitas">Receitas</a></li>
+                <li><a href="#calendario">Calendário de Eventos</a></li>
+                <li><a href="#produtos">Venda de Produtos</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main id="mainContent">
-        <section id="city" class="city">
-            <h2>Cidade Festiva</h2>
-            <div class="cityCelebration">
-                <img src="img/cidade .jpg" alt="Festa na cidade">
-                <p>Vamos celebrar com a agitação da cidade!</p>
+        <!-- Seção Início -->
+        <section id="inicio">
+            <h2>Bem-vindo ao Mundo das Festas!</h2>
+            <p>Celebre a cidade e o campo com muita diversão, cultura e sabores. Explore as tradições urbanas e rurais através de festas, receitas, eventos e muito mais!</p>
+            <div class="intro-images">
+                <img src="img/cidade .jpg" alt="Festa na Cidade">
+                <img src="img/campo.jpg" alt="Festa no Campo">
             </div>
         </section>
 
-        <section id="field" class="field">
-            <h2>Campo Alegre</h2>
-            <div class="fieldCelebration">
-                <img src="img/campo.jpg" alt="Festa no campo">
-                <p>A festa no campo é tranquila e cheia de natureza.</p>
-            </div>
-        </section>
-    </main>
-
-    <script src="script.js"></script>
-</body>
-</html>
-
-<body>
-    <header>
-        <h1>Festejando a Cidade e o Campo</h1>
-        <button id="toggleView">Alternar entre a cidade e o campo</button>
-    </header>
-
-    <main id="mainContent">
-        <section id="city" class="city">
-            <h2>Cidade Festiva</h2>
-            <div class="cityCelebration">
-                <img src="city-festa.jpg" alt="Festa na cidade">
-                <p>Vamos celebrar com a agitação da cidade!</p>
-            </div>
-        </section>
-
-        <section id="field" class="field">
-            <h2>Campo Alegre</h2>
-            <div class="fieldCelebration">
-                <img src="campo-festa.jpg" alt="Festa no campo">
-                <p>A festa no campo é tranquila e cheia de natureza.</p>
-            </div>
-        </section>
-
-        <!-- Nova seção de Receitas -->
-        <section id="recipes" class="recipes">
-            <h2>Deliciosas Receitas para sua Festa</h2>
-            <div class="recipeItem">
+        <!-- Seção de Receitas -->
+        <section id="receitas">
+            <h2>Deliciosas Receitas</h2>
+            <div class="recipe-item">
                 <a href="https://www.tasty.co/recipe/chocolate-cake" target="_blank">
-                    <img src="chocolate-cake.jpg" alt="Bolo de Chocolate">
+                    <img src="img/bolo_chocolate_morango.jpg" alt="Bolo de Chocolate">
                     <h3>Bolo de Chocolate</h3>
-                    <p>Uma receita fácil e deliciosa para adoçar sua festa!</p>
+                    <p>Uma deliciosa receita para adoçar sua festa.</p>
                 </a>
             </div>
-            <div class="recipeItem">
+            <div class="recipe-item">
                 <a href="https://www.allrecipes.com/recipe/8530/chicken-parmesan/" target="_blank">
-                    <img src="chicken-parmesan.jpg" alt="Frango à Parmegiana">
+                    <img src="img/frango a parmegiana .jpg" alt="Frango à Parmegiana">
                     <h3>Frango à Parmegiana</h3>
-                    <p>Um prato delicioso e perfeito para o almoço.</p>
+                    <p>Perfeito para qualquer celebração!</p>
                 </a>
             </div>
-            <div class="recipeItem">
-                <a href="https://www.receitasdeminuto.com/bolo-de-fubá-com-coco/" target="_blank">
-                    <img src="bolo-de-fuba.jpg" alt="Bolo de Fubá">
+            <div class="recipe-item">
+                <a href="https://www.receitasdeminuto.com/bolo-de-fuba-com-coco/" target="_blank">
+                    <img src="img/14-bolo-fuba.jpg" alt="Bolo de Fubá">
                     <h3>Bolo de Fubá</h3>
-                    <p>O sabor do campo em cada pedaço. Ideal para o café da tarde!</p>
+                    <p>Sabor do campo em cada pedaço!</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção de Calendário de Eventos -->
+        <section id="calendario">
+            <h2>Calendário de Eventos</h2>
+            <ul>
+                <li><strong>Festa Junina</strong> - 24 de junho - Celebrando as tradições rurais.</li>
+                <li><strong>Festival da Cidade</strong> - 15 de setembro - Música e gastronomia urbana.</li>
+                <li><strong>Festa do Peão</strong> - 10 de outubro - Rodeio e cultura do interior.</li>
+            </ul>
+        </section>
+
+        <!-- Seção de Venda de Produtos -->
+        <section id="produtos">
+            <h2>Produtos Típicos</h2>
+            <div class="product-item">
+                <a href="https://www.example.com/produto1" target="_blank">
+                    <img src="img/cesta de produtos rurais .jpeg" alt="Cesta de Produtos Rurais">
+                    <h3>Cesta de Produtos Rurais</h3>
+                    <p>Uma seleção de itens frescos diretamente do campo.</p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="https://www.example.com/produto2" target="_blank">
+                    <img src="img/pano-de-copa-decorativo-pintado-a-mao.jpg" alt="Artesanato Local">
+                    <h3>Artesanato Local</h3>
+                    <p>Peças exclusivas feitas por artesãos da cidade e do campo.</p>
                 </a>
             </div>
         </section>
